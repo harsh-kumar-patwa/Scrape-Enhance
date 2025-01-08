@@ -1,0 +1,65 @@
+[
+    {
+        "product_name": "Philips Hair Dryer (HP8100/46)",
+        "price": "953",
+        "product_description": "Cleverly designed, Philips HP8100/46 Hair Dryer is easy to handle and lightweight. The thermoprotect temperature setting provides the optimal hair drying, while protecting your hair from overheating. This hair dryer sets your hair to dry in just a few seconds. This hair dryer is designed for easy handling and features a small, compact design ideal for comfortable storage. It also comes with rubber storage hook.",
+        "num_ratings": "4637 ratings",
+        "category": "Hair",
+        "pricing_segment": "Mid-market",
+        "tagline": "Effortlessly dry and style with precision."
+    },
+    {
+        "product_name": "Bombay Shaving Company Cairo Eau De Parfum For Him(100ml)",
+        "price": "445",
+        "product_description": "Experience the mystic charm of aromatic spices with Bombay Shaving Company Cairo Eau de Parfum, which sends you to the secret alleys of desire. Get ready to charm with warm cardamom, sweet lavender, and the woody scent of leather, and become the talk of the town with the long-lasting touch of vetiver and vanilla.",
+        "num_ratings": "10 ratings",
+        "category": "Fragrance",
+        "pricing_segment": "Premium",
+        "tagline": "Experience the mystic charm of aromatic spices with Bombay Shaving Company Cairo Eau de Parfum."
+    },
+    {
+        "product_name": "Wommune Keto Slim Tablets(60 Tablets)",
+        "price": "232",
+        "product_description": "Wommune Keto Slim Tablets contain an advanced fat burning formula that helps support healthy weight management and aids in detoxification of the body. The supplements contain garcenia combogia, apple cider vinegar, green coffee and green tea that help in digestion, managing appetite as well as boosting metabolism. These Keto Slim tablets are an overall immunity booster for women. ",
+        "num_ratings": "378 ratings",
+        "category": "Health & Wellness",
+        "pricing_segment": "Mid-market",
+        "tagline": "Boost your metabolism and manage weight with Wommune Keto Slim Tablets"
+    },
+    {
+        "product_name": "Pilgrim Squalane Roll-On Under Eye Eream Serum with Phyto-Retinol & Caffeine(15ml)",
+        "price": "360",
+        "product_description": "Pilgrim Squalane Roll-on Under Eye Cream Serum is a luxurious under-eye spa designed to refresh and rejuvenate. A gentle glide of the roll-on serum applicator deeply hydrates. Discover radiant bright eyes!",
+        "num_ratings": "2521 ratings",
+        "category": "Skin",
+        "pricing_segment": "Mid-market",
+        "tagline": "Rejuvenate your eyes with radiant brightness"
+    },
+    {
+        "product_name": "Zaveri Pearls Pink Austrian Diamonds Pearls Necklace Earring Ring Set-ZPFK17286(One Size)",
+        "price": "699",
+        "product_description": "No description",
+        "num_ratings": "42 ratings",
+        "category": "Lingerie & Accessories",
+        "pricing_segment": "Premium",
+        "tagline": "Add a touch of elegance with Austrian Diamonds and Pearls"
+    },
+    {
+        "product_name": "Beardo Chrome Beast Grooming Kit(715 g)",
+        "price": "2009",
+        "product_description": "The Chrome Beast Trimmer comes with 6 attachments, including a beard trimmer, nose trimmer, body trimmer, and styling attachments, that allows you to groom different parts of your body with precision. This makes it a versatile tool that can handle all your trimming needs. All new chrome finish gives the trimmer a stylish edge!",
+        "num_ratings": "20 ratings",
+        "category": "Appliances",
+        "pricing_segment": "Mid-market",
+        "tagline": "Achieve precision grooming with style and ease!"
+    },
+    {
+        "product_name": "Dove Daily Shine Shampoo for Damaged or Frizzy Hair Makes Hair Soft Shiny and Smooth(1000ml)",
+        "price": "918",
+        "product_description": "No description",
+        "num_ratings": "5732 ratings",
+        "category": "Hair",
+        "pricing_segment": "Mid-market",
+        "tagline": "Transform damaged hair into soft, shiny, and smooth locks"
+    }
+]
