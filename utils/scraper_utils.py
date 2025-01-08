@@ -16,17 +16,28 @@ def scrape_product_page(url, session):
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         }
-        response = session.get(url, headers=headers)
+
+        session = requests.Session()
+        session.get("https://www.nykaa.com", headers=headers)
+        cookies = session.cookies.get_dict()
+
+        response = session.get(url, headers=headers, cookies=cookies)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.content, 'html.parser')
+
         # save_soup_to_file(soup.prettify())
 
         product_name = soup.find('h1', class_='css-1gc4x7i').text.strip()
         price = soup.find('span', class_='css-1jczs19').text.strip()
+
+        #Removing non-numeric characters from price
         price = re.sub(r'[^\d]', '', price) 
+
         ratings_element = soup.find('div', class_='css-1hvvm95').text.strip()
-        potential_desc =  soup.find_all('script')
+
+        #finding the script tag which contains the product description
+        potential_desc =  soup.find_all('script')        
         for i in potential_desc:
             if "window.__INITIAL_STATE__" in str(i):
                 potential_desc = str(i)

@@ -22,6 +22,8 @@ def main():
     scraped_data = []
 
     with requests.Session() as session:
+
+        # Handling multiple requests concurrently 
         with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
             futures = []
             for url in product_urls:
